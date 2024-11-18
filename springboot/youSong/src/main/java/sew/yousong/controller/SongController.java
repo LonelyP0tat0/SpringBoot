@@ -10,7 +10,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import sew.yousong.entity.Song;
 import sew.yousong.entity.SongRepository;
 
-@CrossOrigin(origins = "http://localhost:8080")
+@CrossOrigin(origins = "http://localhost:5173")
 @RestController
 @RequestMapping("/api")
 
